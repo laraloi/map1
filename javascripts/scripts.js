@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function drawMap () {
   var canvasTiles = L.tileLayer.canvas();
-  var map = L.mapbox.map('map', 'laraloi.8b0a25e2').setView([1.3509597, 103.7102005], 11);
+  var map = L.mapbox.map('map', 'laraloi.8b0a25e2').setView([1.3354973, 103.7595641], 15);
 
   L.canvasOverlay().drawing(drawPoints).addTo(map);
 }
