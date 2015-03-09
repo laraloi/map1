@@ -28,7 +28,7 @@ function drawPoints (canvasOverlay, params) {
   });
   ctx.fillStyle = '#ff0000';
   ctx.fill();
-  ctx.lineWidth = 1;
-  ctx.strokeStyle = '#ffff00';
+  ctx.lineWidth = 0;
+  ctx.strokeStyle = '#ff0000';
   ctx.stroke();
 }
