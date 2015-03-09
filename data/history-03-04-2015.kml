@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>Location history from 03/04/2015 to 03/05/2015</name>
+<open>1</open>
+<description/>
+<StyleMap id="multiTrack">
+<Pair>
+<key>normal</key>
+<styleUrl>#multiTrack_n</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#multiTrack_h</styleUrl>
+</Pair>
+</StyleMap>
+<Style id="multiTrack_n">
+<IconStyle>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>6</width>
+</LineStyle>
+</Style>
+<Style id="multiTrack_h">
+<IconStyle>
+<scale>1.2</scale>
+<Icon>
+<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+</Icon>
+</IconStyle>
+<LineStyle>
+<color>99ffac59</color>
+<width>8</width>
+</LineStyle>
+</Style>
+<Placemark>
+<name>Latitude User</name>
+<description>Location history for Latitude User from 03/04/2015 to 03/05/2015</description>
+<styleUrl>#multiTrack</styleUrl>
+<gx:Track>
+<altitudeMode>clampToGround</altitudeMode>
+<when>2015-03-04T16:45:53.974-08:00</when>
+<gx:coord>103.6999116 1.3448233 -5</gx:coord>
+<when>2015-03-04T16:47:50.131-08:00</when>
+<gx:coord>103.7061228 1.3477893 -8</gx:coord>
+<when>2015-03-04T16:48:56.902-08:00</when>
+<gx:coord>103.7102005 1.3509597 -3</gx:coord>
+<when>2015-03-04T16:50:56.849-08:00</when>
+<gx:coord>103.7177802 1.3562705 0</gx:coord>
+<when>2015-03-04T16:54:57.192-08:00</when>
+<gx:coord>103.7595641 1.3354973 13</gx:coord>
+<when>2015-03-04T16:58:49.138-08:00</when>
+<gx:coord>103.7934599 1.3496641 0</gx:coord>
+<when>2015-03-04T17:03:00.155-08:00</when>
+<gx:coord>103.8103045 1.3358089 16</gx:coord>
+<when>2015-03-04T17:08:09.129-08:00</when>
+<gx:coord>103.8269286 1.3247671 -6</gx:coord>
+<when>2015-03-04T17:10:12.899-08:00</when>
+<gx:coord>103.825752 1.3208909 -3</gx:coord>
+<when>2015-03-04T17:13:00.845-08:00</when>
+<gx:coord>103.8377233 1.3149798 4</gx:coord>
+</gx:Track>
+</Placemark>
+</Document>
+</kml>
